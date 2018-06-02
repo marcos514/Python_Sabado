@@ -3,3 +3,5 @@ httpswww.quora.comHow-do-I-install-Django-for-Python-2-7-on-my-windows-7
 https://argentinaenpython.com/django-girls/tutorial/django_installation/
 
 pip install virtualenv
+
+virtualenv nombre
