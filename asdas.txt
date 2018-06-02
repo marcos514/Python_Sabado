@@ -9,3 +9,5 @@ virtualenv nombre
 http://www.pythondiario.com/2016/04/instalar-y-utilizar-virtualenv-virtual.html
 
 https://www.quora.com/How-do-I-install-Django-for-Python-2-7-on-my-windows-7
+
+django-admin.py startproject mysite.
