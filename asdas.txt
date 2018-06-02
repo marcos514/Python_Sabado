@@ -5,3 +5,7 @@ https://argentinaenpython.com/django-girls/tutorial/django_installation/
 pip install virtualenv
 
 virtualenv nombre
+
+http://www.pythondiario.com/2016/04/instalar-y-utilizar-virtualenv-virtual.html
+
+https://www.quora.com/How-do-I-install-Django-for-Python-2-7-on-my-windows-7
