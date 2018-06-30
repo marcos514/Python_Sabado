@@ -1,0 +1,12 @@
+Escribir un programa que permita guardar contactos con nombre, teléfono y correo electrónico.
+
+El programa debe constar de dos clases:
+* `Agenda`: que representa a la agenda propiamente dicha. Su estructura interna debe ser un diccionario cuya clave es el nombre y el valor es OTRO DICCIONARIO con dos claves: e-mail y telefono. Debe utilizar la clase `Persistencia` para grabar los datos en disco. Debe tener los métodos:
+ * `abrir`: que usa el método preparar de la clase `Persistencia` y carga el diccionario interno.
+ * `guardar`: graba un nuevo contacto en el diccionario
+ * `buscar`: busca el contacto en el diccionario y lo retorna
+ * `eliminar`: busca el contacto en el diccionario y lo elimina
+* `Persistencia`: representa el lugar en el que será almacenada la información. La información debe ser obtenida de y grabada en un archivo de texto. Debe tener los métodos:
+ * `constructor`: que debe asignar en la clase el nombre del archivo en el que se persistirán los datos.
+ * `preparar`: lee el archivo de texto y retorna todos los datos.
+ * `grabar`: vuelca la información del diccionario en el archivo de texto
